@@ -1,5 +1,6 @@
 import angr
 
+# These block addresses were found using Ghidra 10.2.2
 BASE_ADDR = 0x400000 # Default angr base addr
 
 WIN_BLOCK_ADDR = 0x1225
