@@ -8,4 +8,4 @@ Walkthrough of the program:
 
 - User can optionally specify an input file to use for the first entry by providing an argument to the binary: `./binary ./input.txt`. So if input.txt contains "abcd", it will skip to the second prompt.
 
-Imagine this is a CTF challenge where we already know the answer to the first stage, and we're trying to use angr to figure out the "efgh" string for the second prompt. We want to run it with the input file, and start exploring with symbolic execution only *after* we've passed the code for the first prompt.
+Imagine this is a CTF challenge where we already know the answer to the first prompt, and we're trying to use angr to figure out the "efgh" string for the second prompt. We want to run it with the input file, and start exploring with symbolic execution only *after* we've passed the code for the first prompt.
