@@ -3,9 +3,9 @@ import angr
 # These block addresses were found using Ghidra 10.2.2
 BASE_ADDR = 0x400000 # Default angr base addr
 
-WIN_BLOCK_ADDR = 0x1225
-EXIT1_BLOCK_ADDR = 0x1212
-EXIT2_BLOCK_ADDR = 0x11ec
+WIN_BLOCK_ADDR = BASE_ADDR + 0x1225
+EXIT1_BLOCK_ADDR = BASE_ADDR + 0x1212
+EXIT2_BLOCK_ADDR = BASE_ADDR + 0x11ec
 CONTINUE_BLOCK_ADDR = BASE_ADDR + 0x11a8
 
 def at_continue(sim: angr.sim_manager.SimulationManager):
